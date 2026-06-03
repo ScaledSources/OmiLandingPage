@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1965ff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1000,0v371.86s-499.99,0-499.99,0c-70.77,0-128.14,57.37-128.14,128.14v500s-371.87,0-371.87,0v-500C0,223.86,223.86,0,500,0h500Z"/>
+</svg>

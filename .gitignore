@@ -1,0 +1,3 @@
+# Root .gitignore. Subdir .gitignores (web/.gitignore) handle their own trees.
+.DS_Store
+*.log
