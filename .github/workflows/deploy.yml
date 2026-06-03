@@ -31,8 +31,9 @@ jobs:
         run: |
           REPO="${GITHUB_REPOSITORY##*/}"
           OWNER="${GITHUB_REPOSITORY%%/*}"
-          # User/org pages (<owner>.github.io) serve at root; project pages serve under /<repo>/.
-          if [ "$REPO" = "${OWNER}.github.io" ]; then
+          # Custom domain (CNAME) and user/org pages (<owner>.github.io) serve at root;
+          # project pages without a custom domain serve under /<repo>/.
+          if [ -f web/public/CNAME ] || [ "$REPO" = "${OWNER}.github.io" ]; then
             echo "path=" >> "$GITHUB_OUTPUT"
           else
             echo "path=/${REPO}" >> "$GITHUB_OUTPUT"
