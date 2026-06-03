@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { asset } from "@/lib/asset";
 import {
   aboutLinks,
   contactLinks,
@@ -51,7 +52,7 @@ export function Footer() {
         <div className="grid gap-12 lg:grid-cols-[1.3fr_2.7fr]">
           <div>
             <Image
-              src="/omi-wide-white.svg"
+              src={asset("/omi-wide-white.svg")}
               alt="Open Markets Initiative"
               width={220}
               height={20}

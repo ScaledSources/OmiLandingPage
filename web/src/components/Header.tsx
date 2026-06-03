@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { asset } from "@/lib/asset";
 
 const navLinks = [
   { href: "#directory", label: "Directory" },
@@ -14,7 +15,7 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/omi-wide-color-light.svg"
+            src={asset("/omi-wide-color-light.svg")}
             alt="Open Markets Initiative"
             width={260}
             height={24}
