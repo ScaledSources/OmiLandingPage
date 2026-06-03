@@ -12,9 +12,9 @@ const heroStats = [
     description: "Market data, order entry, encoding formats",
   },
   {
-    value: "4",
+    value: "5",
     title: "Generated output targets",
-    description: "Lua · C · C# · Java — all source-generated",
+    description: "Lua · C · C++ · C# · Java — all source-generated",
   },
   {
     value: "MIT",
@@ -26,7 +26,7 @@ const heroStats = [
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-white">
-      <div className="mx-auto grid max-w-7xl items-center gap-16 px-6 pb-24 pt-20 lg:grid-cols-[1.05fr_1fr] lg:gap-20 lg:px-10 lg:pt-28">
+      <div className="mx-auto grid max-w-7xl items-center gap-16 px-6 pb-24 pt-10 lg:grid-cols-[1.05fr_1fr] lg:gap-20 lg:px-10 lg:pt-14">
         <div>
           <h1 className="text-[2.75rem] font-semibold leading-[1.05] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
             Democratizing
@@ -38,9 +38,9 @@ export function Hero() {
             Protocols are normalized as intermediate binary representations,
             then compiled into{" "}
             <InlineCode>Wireshark dissectors</InlineCode>,{" "}
-            <InlineCode>C structs</InlineCode>,{" "}
-            <InlineCode>C# packed structs</InlineCode>, and{" "}
-            <InlineCode>Java classes</InlineCode>. One model, every venue,
+            <InlineCode>C</InlineCode>, <InlineCode>C++</InlineCode>,{" "}
+            <InlineCode>C#</InlineCode>, and <InlineCode>Java</InlineCode>. One
+            model, every venue,
             every language.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -49,7 +49,7 @@ export function Hero() {
               className="inline-flex h-11 items-center gap-2 rounded-full border border-border bg-white px-5 text-sm font-medium text-ink shadow-sm transition-colors hover:border-ink/30 hover:bg-surface-muted"
             >
               <BracketIcon className="h-3.5 w-3.5 text-brand" />
-              Browse the catalogue
+              Browse the catalog
             </a>
             <a
               href="https://github.com/Open-Markets-Initiative"

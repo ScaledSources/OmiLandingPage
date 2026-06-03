@@ -12,7 +12,7 @@ const steps = [
   {
     n: "03",
     title: "We handle the rest",
-    body: "We normalize, compile, and publish it to the Directory with all four output targets generated.",
+    body: "We normalize, compile, and publish it to the Directory.",
   },
 ];
 

@@ -22,7 +22,7 @@ export function CTA() {
               </h2>
               <p className="mt-5 max-w-lg text-sm leading-7 text-white/85">
                 Everything OMI produces is free, MIT-licensed, and
-                community-driven. Browse the full catalogue, contribute a
+                community-driven. Browse the full catalog, contribute a
                 protocol, or just start building.
               </p>
             </div>
@@ -42,7 +42,7 @@ export function CTA() {
                 className="inline-flex h-11 w-full max-w-sm items-center justify-center gap-2 rounded-full border border-white/40 px-5 text-sm font-medium text-white transition-colors hover:bg-white/10 lg:w-auto"
               >
                 <Bracket className="h-3.5 w-3.5" />
-                Browse the catalogue
+                Browse the catalog
               </a>
               <a
                 href="#contribute"

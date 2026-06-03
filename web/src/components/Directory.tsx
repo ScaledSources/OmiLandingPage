@@ -30,7 +30,7 @@ export function Directory() {
         <div className="mt-3 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <div className="max-w-2xl">
             <h2 className="text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
-              The catalogue
+              The catalog
             </h2>
             <p className="mt-4 text-sm leading-7 text-ink-muted">
               A curated index of public protocol specifications, sample data,
