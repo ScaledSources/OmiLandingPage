@@ -83,7 +83,7 @@ export const organizations: Organization[] = [
 ];
 
 // Canonical specs documented at /Protocols/*.md in the Directory repo.
-export const CANONICAL_PROTOCOL_COUNT = 54;
+export const CANONICAL_PROTOCOL_COUNT = 53;
 
 // Each protocol entry links to /Organizations/{org}/Protocols/{name}.
 export const protocols: Protocol[] = [
@@ -136,6 +136,7 @@ export const protocols: Protocol[] = [
   { name: "OnyxFutures", org: "Miax" },
   { name: "PearlEquities", org: "Miax" },
   { name: "PearlOptions", org: "Miax" },
+  { name: "SapphireOptions", org: "Miax" },
   { name: "GemxOptions", org: "Nasdaq" },
   { name: "IseOptions", org: "Nasdaq" },
   { name: "MrxOptions", org: "Nasdaq" },
