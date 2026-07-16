@@ -38,7 +38,7 @@ const columns = [
   {
     heading: "Contact",
     links: [
-      { label: "Requests", href: contactLinks.requests },
+      { label: "Get Involved", href: contactLinks.getInvolved },
       { label: "Issues", href: contactLinks.issues },
       { label: "GitHub", href: contactLinks.github },
     ],

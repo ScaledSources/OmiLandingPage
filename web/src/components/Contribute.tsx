@@ -1,3 +1,5 @@
+import { contactLinks } from "@/data/directory";
+
 const steps = [
   {
     n: "01",
@@ -34,10 +36,12 @@ export function Contribute() {
             classes.
           </p>
           <a
-            href="mailto:requests@openmarketsinitiative.com"
+            href={contactLinks.getInvolved}
+            target="_blank"
+            rel="noreferrer"
             className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-brand hover:text-brand-dark"
           >
-            requests@openmarketsinitiative.com
+            Get Involved
             <Arrow className="h-3 w-3" />
           </a>
         </div>

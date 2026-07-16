@@ -6,7 +6,7 @@ const navLinks = [
   { href: "#directory", label: "Directory" },
   { href: "#compiler", label: "Compiler" },
   { href: "#about", label: "About" },
-  { href: "#contribute", label: "Request a protocol" },
+  { href: "#contribute", label: "Get Involved" },
 ];
 
 export function Header() {
