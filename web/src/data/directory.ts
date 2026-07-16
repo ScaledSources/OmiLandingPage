@@ -28,7 +28,8 @@ export const aboutLinks = {
 };
 
 export const contactLinks = {
-  requests: "mailto:requests@openmarketsinitiative.com",
+  getInvolved:
+    "https://docs.google.com/forms/d/e/1FAIpQLSfwDeAPZYVrH0HzZsr7Yliy6OI7CuiSVox1f_ygNFf1UwZuqQ/viewform",
   issues: `${GITHUB_REPO}/issues`,
   github: GITHUB_ORG,
 };
@@ -50,6 +51,7 @@ export const organizations: Organization[] = [
   { name: "Aquis" },
   { name: "Asx" },
   { name: "B3" },
+  { name: "Bist" },
   { name: "Boats" },
   { name: "Box" },
   { name: "BruceAts" },
@@ -69,13 +71,14 @@ export const organizations: Organization[] = [
   { name: "Jpx" },
   { name: "Lse" },
   { name: "Lseg" },
+  { name: "Ltse" },
   { name: "Memx" },
   { name: "Miax" },
   { name: "Nasdaq" },
   { name: "NsxAustralia" },
   { name: "Nyse" },
   { name: "Odx" },
-  { name: "Otc" },
+  { name: "OtcMarkets" },
   { name: "Siac" },
   { name: "SmallX" },
   { name: "Tmx" },
@@ -83,7 +86,7 @@ export const organizations: Organization[] = [
 ];
 
 // Canonical specs documented at /Protocols/*.md in the Directory repo.
-export const CANONICAL_PROTOCOL_COUNT = 53;
+export const CANONICAL_PROTOCOL_COUNT = 55;
 
 // Each protocol entry links to /Organizations/{org}/Protocols/{name}.
 export const protocols: Protocol[] = [
@@ -92,6 +95,7 @@ export const protocols: Protocol[] = [
   { name: "Aquis", org: "Aquis" },
   { name: "AsxSecurities", org: "Asx" },
   { name: "B3Derivatives", org: "B3" },
+  { name: "Bist", org: "Bist" },
   { name: "BoatsEquities", org: "Boats" },
   { name: "Box", org: "Box" },
   { name: "BruceEquities", org: "BruceAts" },
@@ -130,6 +134,7 @@ export const protocols: Protocol[] = [
   { name: "Turquoise", org: "Lse" },
   { name: "Lseg", org: "Lseg" },
   { name: "TradeEcho", org: "Lseg" },
+  { name: "LtseEquities", org: "Ltse" },
   { name: "MemxEquities", org: "Memx" },
   { name: "EmeraldOptions", org: "Miax" },
   { name: "MiaxOptions", org: "Miax" },
@@ -159,7 +164,10 @@ export const protocols: Protocol[] = [
   { name: "TexasEquities", org: "Nyse" },
   { name: "OdxEquities", org: "Odx" },
   { name: "OdxSecurityToken", org: "Odx" },
-  { name: "Otc", org: "Otc" },
+  { name: "LinkAts", org: "OtcMarkets" },
+  { name: "LinkNqb", org: "OtcMarkets" },
+  { name: "MoonAts", org: "OtcMarkets" },
+  { name: "Overnight", org: "OtcMarkets" },
   { name: "Siac", org: "Siac" },
   { name: "SmallX", org: "SmallX" },
   { name: "Tmx", org: "Tmx" },
